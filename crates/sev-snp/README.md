@@ -83,9 +83,9 @@ For details on the struct options, please check out the comments in the struct.
 ### Verify Attestation
 #### Verify Attestation on-chain
 
-To verify your attestation repot on chain, you can use either [RISC0](../zk/risc0/) or [SP1](../zk/sp1/) zkVM to perform the validation offchain and generate a ZK proof, then verify this proof on chain. Here are the steps to generate the proof:
+To verify your attestation report on chain, you can use either [RISC0](../zk/risc0/) or [SP1](../zk/sp1/) zkVM to perform the validation offchain and generate a ZK proof, then verify this proof on chain. Here are the steps to generate the proof:
 
-1. Perform the attestation generation with the VEK cert, and store the results in Base64 format. Check how it does at [attestation example](./examples/attestation.rs).
+1. Perform the attestation generation with the VEK cert, and store the results in Base64 format. See how it is done at [attestation example](./examples/attestation.rs).
 
 2. Follow the instructions at [RISC0](../zk/risc0/) or [SP1](../zk/sp1/) folder, to see how to generate a proof and validate it offchain.
 
