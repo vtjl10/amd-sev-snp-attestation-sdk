@@ -50,7 +50,8 @@ function verifyAndAttestWithZKProof(
 | Risc0  | 0x280160e5f541ac4a9015ae6bb4b65e0b4791354e30ff9a393dd50c3bb24dc377 |
 | SP1    | 0x00d2342d2400bed28302507269281dcb2c621bae91a0626796ce637f01c928d8 (BN254); 0x691a1692002fb4a0604a0e4d1281dcb26310dd744681899e2d9cc6fe01c928d8 (BabyBear 32-bit BE word) |
 
-> [!NOTE] Why are there BabyBear and BN254 Program IDs?
+> [!NOTE]
+> **Why are there BabyBear and BN254 Program IDs?**
 >
 > SP1 program identifiers (vkeys) exist in two representations to serve different purposes in the zero-knowledge proof workflow:
 >
