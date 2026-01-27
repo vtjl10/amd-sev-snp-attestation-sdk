@@ -85,7 +85,7 @@ export BOUNDLESS_PRIVATE_KEY="0x..."    # Your wallet private key (hex-encoded)
 export PINATA_JWT="..."                  # Pinata JWT for IPFS storage (for ELF uploads)
 ```
 
-For more information, see the [Boundless documentation](https://docs.boundless.xyz/).
+For more information, see the [Boundless documentation](https://docs.boundless.network/developers/quick-start).
 
 #### Succinct
 To get started, you need to have the following installed:
